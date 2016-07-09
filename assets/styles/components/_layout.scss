@@ -1,0 +1,57 @@
+body {
+  & * {
+    box-sizing: border-box;
+  }
+}
+
+.site-main {
+
+  &__inner {
+    max-width: 94%;
+    margin: 0 auto;
+    background-color: rgba($off-white, 0.9);
+    padding: 20px 0;
+
+    @include breakpoint($bp-medium) {
+      max-width: 96%;
+    }
+
+    @include breakpoint($bp-large) {
+      //max-width: $site-width + 60px;
+      padding: 30px;
+    }
+  }
+}
+
+.page-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  @include breakpoint($bp-large) {
+    padding: 0;
+  }
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.background-image {
+  @include breakpoint($bp-medium) {
+    display: block;
+    width: 100vw;
+    z-index: -1;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('../../images/characters-cropped.png') center 260px no-repeat transparent;
+    background-size: 800px;
+  }
+}

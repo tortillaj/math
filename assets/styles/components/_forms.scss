@@ -1,0 +1,38 @@
+form {
+  width: 100%;
+}
+
+input, textarea {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid $blue;
+  border-left: 5px solid $blue;
+  background-color: $off-white;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: $blue;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact-form {
+  width: 100%;
+  margin: 30px auto;
+
+  @include breakpoint($bp-medium) {
+    max-width: 75%;
+  }
+
+  @include breakpoint($bp-large) {
+    max-width: 65%;
+  }
+
+  @include breakpoint($bp-desktop) {
+    max-width: 50%;
+  }
+}

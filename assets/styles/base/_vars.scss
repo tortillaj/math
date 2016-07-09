@@ -1,0 +1,46 @@
+$site-width: 1200px;
+$content-width: 925px;
+$header-height: 80px;
+$page-header-height: 200px;
+
+$module-grid-image-width: 200px;
+$module-grid-image-height: 200px;
+
+$bp-small: 480px / 16px * 1em;
+$bp-medium: 768px / 16px * 1em;
+$bp-large: 1024px / 16px * 1em;
+$bp-desktop: 1200px / 16px * 1em;
+
+$off-black: #4d4d4d;
+$off-white: #f7f7f7;
+
+$green: #5D9674;
+$green-dark: darken($green, 10%);
+$orange: #FFCF00;
+$orange-dark: darken($orange, 10%);
+$blue: #236082;
+$blue-dark: #1E71FE;
+$gray: #808285;
+$off-white: #F7F7F7;
+$red: #D85518;
+$turquoise: #3C9EAB;
+$yellow: #C7B100;
+$purple: #6E6C80;
+$pale-blue: #85ACB3;
+$purple-dark: #393B47;
+
+$header-font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+$body-text-font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+$base-font-color: $off-black;
+$base-font-size: 62.5%;
+$base-line-height: 1.5;
+$body-font-size: 16px;
+$base-font-size: $body-font-size;
+$h1-font-size: 42px;
+$h2-font-size: 32px;
+$h3-font-size: 1.25  * $body-font-size;
+$h4-font-size: 1.15  * $body-font-size;
+$h5-font-size: 0.83 * $body-font-size;
+$h6-font-size: 0.75 * $body-font-size;
+$link-color: $blue;
+$link-color-hover: darken($link-color, 5%);
